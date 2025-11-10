@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Shri Krishna Enterprises — Best consultancy service in Jhansi or UP</title>
+
+    <!-- SEO meta injected -->
+    <meta name="description" content="Shri Krishna Enterprises provides professional manpower, security, and consultancy services in Jhansi, Uttar Pradesh, India. Best consultancy service in Jhansi or UP. Contact us at +91 9455323678.">
+    <meta name="keywords" content="Best consultancy service in Jhansi or UP, manpower consultancy Jhansi, security services Jhansi, manpower supplier UP, Shri Krishna Enterprises">
+    <meta name="author" content="Shri Krishna Enterprises">
+    <link rel="canonical" href="https://skeservices.in/projects.html">
+    <!-- end SEO meta -->
+    
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/favicon.ico">
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- AOS Animation Library -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    rel="stylesheet"
+  >
+
+  <!-- Custom Styles -->
+  <link href="/assets/css/styles.css" rel="stylesheet">
+
+<style>
+ /* =========================
+     NAVBAR STYLES (FULLY RESPONSIVE)
+  ========================== */
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .brand img.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: all 0.3s ease;
+  }
+
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .nav-toggle .hamburger {
+    width: 28px;
+    height: 3px;
+    background: var(--text, #333);
+    margin: 4px 0;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+
+  /* --- Responsive Styles --- */
+  @media (max-width: 992px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background: var(--bg, #fff);
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 100%;
+      padding: 15px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-top: 1px solid rgba(0,0,0,0.08);
+      z-index: 1000;
+    }
+
+    .nav-links.active {
+      display: flex;
+      animation: slideDown 0.3s ease forwards;
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .nav-toggle {
+      display: flex;
+    }
+  }
+
+  @media (min-width: 993px) {
+    .nav-links {
+      display: flex !important;
+      position: static;
+      background: transparent;
+      box-shadow: none;
+    }
+    .nav-toggle {
+      display: none !important;
+    }
+  }
+
+  /* Navbar Link Style */
+  .nav-links a {
+    text-decoration: none;
+    color: var(--text, #333);
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+
+  .nav-links a:hover {
+    color: var(--accent, #007bff);
+  }
+  
+  
+  
+  
+  
+  
+  /* 🌟 PROJECTS PAGE MODERN STYLING 🌟 */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+  margin-top: 20px;
+}
+
+.project.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: all 0.35s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: var(--card-bg, #fff);
+}
+
+.project.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+  transition: transform 0.5s ease;
+}
+
+.project.card:hover img {
+  transform: scale(1.07);
+  filter: brightness(0.9);
+}
+
+.project .caption {
+  padding: 12px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--text, #222);
+  background: rgba(255, 255, 255, 0.9);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 0 0 12px 12px;
+}
+
+.project.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 123, 255, 0.2);
+}
+
+/* 🌙 Dark Mode */
+[data-theme="dark"] .project.card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #f1f5f9;
+}
+[data-theme="dark"] .project .caption {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ✅ Section Titles */
+section.card h1 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+section.card p {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.85;
+  margin-bottom: 20px;
+}
+
+/* ✅ Hover overlay effect */
+.project.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent, rgba(0,0,0,0.5));
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  border-radius: 14px;
+}
+.project.card:hover::after {
+  opacity: 1;
+}
+
+/* ✅ Caption hover glow */
+.project.card:hover .caption {
+  background: rgba(0,123,255,0.1);
+  color: #0078ff;
+}
+
+/* ✅ Responsive */
+@media (max-width: 600px) {
+  .project.card img {
+    height: 200px;
+  }
+  section.card h1 {
+    font-size: 22px;
+  }
+}
+
+  </style>
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:site_name" content="Shri Krishna Enterprises">
+  <meta property="og:title" content="Shri Krishna Enterprises — Best consultancy service in Jhansi or UP">
+  <meta property="og:description" content="Shri Krishna Enterprises provides professional manpower, security, and consultancy services in Jhansi, Uttar Pradesh, India. Best consultancy service in Jhansi or UP. Contact us at +91 9455323678.">
+  <meta property="og:url" content="https://skeservices.in/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_IN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shri Krishna Enterprises — Best consultancy service in Jhansi or UP">
+  <meta name="twitter:description" content="Shri Krishna Enterprises provides professional manpower, security, and consultancy services in Jhansi, Uttar Pradesh, India. Best consultancy service in Jhansi or UP. Contact us at +91 9455323678.">
+</head>
+
+<body>
+<header class="header-transparent" id="header">
+  <div class="container navbar">
+
+    <!-- Brand Section -->
+    <div class="brand">
+      <img src="/assets/img/logo.png" alt="SK Logo" class="logo">
+      <div>
+        <div style="font-weight:700">Shri Krishna Enterprises</div>
+        <div class="small">Connecting Clients, Engineers, and Contractors</div>
+      </div>
+    </div>
+
+    <!-- Menu Toggle Button -->
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <nav class="nav-links" aria-label="Main Navigation">
+      <a href="/index.html" class="small">Home</a>
+      <a href="/about.html" class="small">About</a>
+      <a href="/services.html" class="small">Services</a>
+      <a href="/projects.html" class="small">Projects</a>
+      <a href="/careers.html" class="small">Careers</a>
+      <a href="/contact.html" class="small">Contact</a>
+      <button class="theme-toggle" id="themeToggle">🌙 / ☀️</button>
+    </nav>
+
+  </div>
+</header>
+  <!-- ===== Main Content ===== -->
+  <main class="container" style="padding-top: 18px;">
+    <section class="card" data-aos="fade-up">
+      <h1>On Going Projects</h1>
+      <p>Highlights of ongoing Projects </p>
+
+      <div class="projects-grid">
+        <div class="project card">
+          <img src="/assets/img/Kavach installation.webp" alt="Project Alpha">
+          <div class="caption">Kavach Installation</div>
+          
+        </div>
+
+        <div class="project card">
+          <img src="/assets/img/security and helper.jpg" alt="Project Beta">
+          <div class="caption">Security and Helper services</div>
+        </div>
+
+        <div class="project card">
+          <img src="/assets/img/transportion service.webp" alt="Project Gamma">
+          <div class="caption">Transportation services</div>
+        </div>
+
+        <div class="project card">
+          <img src="/assets/img/NPCI.jpg" alt="Project Delta">
+          <div class="caption">NPCI server maintenance</div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="card" data-aos="fade-up">
+      <h1>Up Coming Projects</h1>
+      <p>Highlights of Upcoming projects.</p>
+
+      <div class="projects-grid">
+        <div class="project card">
+          <img src="/assets/img/RTIS 4.avif" alt="Project Alpha">
+          <div class="caption">RTIS phase 4 installation</div>
+        </div>
+
+        <div class="project card">
+          <img src="/assets/img/Tag Installation.webp" alt="Project Beta">
+          <div class="caption">Tag installation</div>
+        </div>
+
+        
+      </div>
+    </section>
+
+
+    <section class="card" data-aos="fade-up">
+      <h1>Our Works</h1>
+      <p>Highlights of Our completed projects.</p>
+
+      <div class="projects-grid">
+        <div class="project card">
+          <img src="/assets/img/Project Exbhition.jpeg" alt="Project Alpha">
+          <div class="caption">Demonstration of RTIS device to GM NCR railways</div>
+        </div>
+
+        <div class="project card">
+          <img src="/assets/img/Railway project.jpeg" alt="Project Beta">
+          <div class="caption">Railway project team</div>
+        </div>
+
+        <div class="project card">
+          <img src="/assets/img/LOCO.jpeg" alt="Project Delta">
+          <div class="caption">LOCO TCAS (KAVACH) Installation team</div>
+        </div>
+
+
+        <div class="project card">
+          <img src="/assets/img/Track maintainence.jpeg" alt="Project Gamma">
+          <div class="caption">Track Maintainence</div>
+        </div>
+
+        <div class="project card">
+          <img src="/assets/img/Adavanced Mointering.jpeg" alt="Project Delta">
+          <div class="caption">Advanced monintering sytem</div>
+        </div>
+         
+        <div class="project card">
+          <img src="/assets/img/Industrial Equipment.jpeg" alt="Project Delta">
+          <div class="caption">Industrial Equipment Installation</div>
+        </div>
+
+        <div class="project card">
+          <img src="/assets/img/TCAS RFID.jpg" alt="Project Delta">
+          <div class="caption">TCAS RFID tag fixing</div>
+        </div>
+
+         <div class="project card">
+          <img src="/assets/img/LTCAS.jpeg" alt="Project Delta">
+          <div class="caption">LTCAS and STCAS installation at IRISET for training of Staff </div>
+        </div>
+
+        <div class="project card">
+          <img src="/assets/img/LTCAS Installation teams.jpg" alt="Project Delta">
+          <div class="caption">LTCAS Installation teams</div>
+        </div>
+
+
+
+
+      </div>
+    </section>
+
+
+    
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container row">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img
+          src="/assets/img/logo.png"
+          alt="Logo"
+          style="height:40px; width:40px; border-radius:6px;"
+        >
+        <div>
+          <div style="font-weight:700">Shri Krishna Enterprises</div>
+          <div class="small">© 2025 — Azad Nagar, Hansari, Jhansi, Uttar Pradesh - 284135</div>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:10px; align-items:center;">
+        <a
+          class="icon-btn"
+          href="https://wa.me/917860333220"
+          target="_blank"
+        >
+          📱 WhatsApp
+        </a>
+
+        <a class="icon-btn" href="mailto:official.data.ski@gmail.com">
+          ✉️ Email
+        </a>
+      </div>
+    </div>
+  
+  <div class="small" style="margin-top:8px;text-align:center;">
+    GSTIN: 09CKFPT7344R1Z2 &nbsp; | &nbsp; 
+    Udyam No: UDYAM-UP-39-0053213 &nbsp; | &nbsp; 
+    Labour Reg. No: UPCLA37000081
+  </div>
+  
+    
+  <div style="text-align:center; margin-top:12px; font-size:14px; color:rgba(0,0,0,0.7);">
+   🌐 Developed by <a href="mailto:rupesharma066@gmail.com" style="color:inherit; text-decoration:underline;">Rupesh Sharma</a>
+</div>
+
+</footer>
+
+
+  <!-- ===== Scripts ===== -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script>
+    AOS.init({
+      duration: 700,
+      once: true
+    });
+  </script>
+
+<script src="/assets/js/navbar.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const navToggle = document.querySelector('.nav-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+});
+</script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const navToggle = document.querySelector('.nav-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  if(navToggle && navLinks){
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  }
+});
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Shri Krishna Enterprises",
+  "url": "https://skeservices.in",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Jhansi",
+    "addressRegion": "Uttar Pradesh",
+    "addressCountry": "India"
+  },
+  "description": "Shri Krishna Enterprises - Best consultancy service in Jhansi or UP. Professional manpower, security, and industrial project services in Jhansi, Uttar Pradesh, India.",
+  "telephone": "+91 9455323678",
+  "email": "shrikrishnaenterprises@skeservices.in"
+}
+</script>
+<!-- Floating WhatsApp Button (Mid Screen) -->
+<a href="https://wa.me/919455323678?text=Hi!%20I%20want%20to%20book%20a%20consultation." 
+   class="whatsapp-float" 
+   target="_blank" 
+   title="Chat on WhatsApp">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+   <span class="whatsapp-text">Book Your Consultation</span>
+</a>
+
+<style>
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  top: 50%;              /* 👈 mid of screen vertically */
+  right: 20px;           /* 👈 right side */
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  background-color: #25D366; /* WhatsApp green */
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 16px 10px 10px;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-50%) scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  background-color: #20bd60;
+}
+
+.whatsapp-icon {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 4px;
+  margin-right: 10px;
+}
+
+.whatsapp-text {
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* Mobile Responsive */
+@media (max-width:600px){
+  .whatsapp-float {
+    top: auto;
+    bottom: 80px;
+    right: 10px;
+    transform: none;
+    padding: 8px 14px 8px 8px;
+  }
+  .whatsapp-icon {
+    height: 32px;
+    width: 32px;
+  }
+  .whatsapp-text {
+    font-size: 14px;
+  }
+}
+</style>
+
+</body>
+</html>

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Careers | Shri Krishna Enterprises — Best consultancy service in Jhansi or UP</title>
+
+  <!-- SEO meta -->
+  <meta name="description" content="Shri Krishna Enterprises provides professional manpower, security, and consultancy services in Jhansi, Uttar Pradesh, India. Best consultancy service in Jhansi or UP. Contact us at +91 9455323678.">
+  <meta name="keywords" content="Best consultancy service in Jhansi or UP, manpower consultancy Jhansi, security services Jhansi, manpower supplier UP, Shri Krishna Enterprises">
+  <meta name="author" content="Shri Krishna Enterprises">
+  <link rel="canonical" href="https://skeservices.in/careers.html">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link href="/assets/css/styles.css" rel="stylesheet">
+
+  <!-- ✅ Navbar Responsive Styles (same as index.html) -->
+  <style>
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .brand img.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: all 0.3s ease;
+  }
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .nav-toggle .hamburger {
+    width: 28px;
+    height: 3px;
+    background: var(--text, #333);
+    margin: 4px 0;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+
+  /* Responsive */
+  @media (max-width: 992px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background: var(--bg, #fff);
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 100%;
+      padding: 15px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-top: 1px solid rgba(0,0,0,0.08);
+      z-index: 1000;
+    }
+    .nav-links.active {
+      display: flex;
+      animation: slideDown 0.3s ease forwards;
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .nav-toggle { display: flex; }
+  }
+
+  @media (min-width: 993px) {
+    .nav-links {
+      display: flex !important;
+      position: static;
+      background: transparent;
+      box-shadow: none;
+    }
+    .nav-toggle { display: none !important; }
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: var(--text, #333);
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+
+  .nav-links a:hover {
+    color: var(--accent, #007bff);
+  }
+
+  /* ✅ Message Box */
+  #formMessage {
+    display:none;
+    padding:14px 18px;
+    border-radius:10px;
+    font-weight:600;
+    margin:15px auto;
+    text-align:center;
+    max-width:900px;
+    transition: all 0.4s ease;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  }
+  #formMessage.success {
+    background-color:#e6ffed;
+    color:#237a3a;
+    border:1px solid #4caf50;
+  }
+  #formMessage.error {
+    background-color:#ffe6e6;
+    color:#c62828;
+    border:1px solid #f44336;
+  }
+  
+  
+  
+  
+  /* ===== Careers Page ===== */
+.career-hero {
+  text-align: center;
+  margin: 40px 0 30px;
+}
+.career-hero h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.career-hero p {
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+.career-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+.career-card {
+  background: var(--card-bg, #fff);
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+  padding: 24px;
+  border: 1px solid rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+.career-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.15);
+}
+.career-card h3 {
+  margin-bottom: 10px;
+}
+.career-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+}
+.career-card ul li {
+  margin-bottom: 6px;
+  padding-left: 18px;
+  position: relative;
+}
+.career-card ul li::before {
+  content: "✔️";
+  position: absolute;
+  left: 0;
+}
+
+.career-form h3 {
+  margin-bottom: 12px;
+  text-align: center;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+.form-field label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.input {
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+}
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.1);
+}
+.btn {
+  display: inline-block;
+  background: #0078ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #005ecc;
+  transform: translateY(-2px);
+}
+
+.career-cta {
+  text-align: center;
+  background: linear-gradient(135deg, #0078ff, #25d366);
+  color: #fff;
+  padding: 50px 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+.career-cta h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.career-cta p {
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+.btn-white {
+  background: #fff;
+  color: #0078ff;
+  padding: 10px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn-white:hover {
+  background: rgba(255,255,255,0.9);
+  transform: scale(1.05);
+}
+
+/* Dark Mode Safe */
+[data-theme="dark"] .career-card,
+[data-theme="dark"] .career-form {
+  background: rgba(255,255,255,0.08);
+  color: #f1f5f9;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+[data-theme="dark"] .career-cta {
+  background: linear-gradient(135deg, #25d366, #0078ff);
+}
+
+  </style>
+</head>
+
+<body>
+  <div id="formMessage"></div>
+
+  <!-- ===== Header / Navbar ===== -->
+  <header class="header-transparent" id="header">
+    <div class="container navbar">
+
+      <!-- Brand Section -->
+      <div class="brand">
+        <img src="/assets/img/logo.png" alt="SK Logo" class="logo">
+        <div>
+          <div style="font-weight:700">Shri Krishna Enterprises</div>
+          <div class="small">Connecting Clients, Engineers, and Contractors</div>
+        </div>
+      </div>
+
+      <!-- Menu Toggle Button -->
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="/index.html" class="small">Home</a>
+        <a href="/about.html" class="small">About</a>
+        <a href="/services.html" class="small">Services</a>
+        <a href="/projects.html" class="small">Projects</a>
+        <a href="/careers.html" class="small">Careers</a>
+        <a href="/contact.html" class="small">Contact</a>
+        <button class="theme-toggle" id="themeToggle">🌙 / ☀️</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Main Section ===== -->
+  <main class="container" style="padding-top: 18px;">
+  <section class="career-hero" data-aos="fade-up">
+  <h1>Join Our Team 🚀</h1>
+  <p>We’re always looking for talented individuals to join our growing organization.</p>
+</section>
+
+<section class="career-grid" data-aos="fade-up" data-aos-delay="100">
+  <div class="career-card">
+    <h3>💼 Current Openings</h3>
+    <ul>
+      <li>Site Supervisor – Jhansi</li>
+      <li>Electrician – Lucknow</li>
+      <li>Helper / Labour – Various Locations</li>
+    </ul>
+    <p>Can’t find your role? Send us your resume anyway — we’ll contact you when a matching role opens.</p>
+  </div>
+
+  <div class="career-form card" data-aos="fade-up" data-aos-delay="150">
+    <h3>📋 Submit Your Application</h3>
+    <form id="careerForm" action="/careers.php" method="post" enctype="multipart/form-data">
+      <div class="form-field">
+        <label>Full Name</label>
+        <input class="input" type="text" name="name" required>
+      </div>
+      <div class="form-field">
+        <label>Email</label>
+        <input class="input" type="email" name="email" required>
+      </div>
+      <div class="form-field">
+        <label>Phone</label>
+        <input class="input" type="tel" name="phone" required>
+      </div>
+      <div class="form-field">
+        <label>Position Applied For</label>
+        <input class="input" type="text" name="position">
+      </div>
+      <div class="form-field">
+        <label>Upload Resume (PDF/DOC)</label>
+        <input class="input" type="file" name="resume" accept=".pdf,.doc,.docx" required>
+      </div>
+      <button class="btn" type="submit">Submit Application</button>
+    </form>
+  </div>
+</section>
+
+<section class="career-cta" data-aos="zoom-in" data-aos-delay="200">
+  <h2>Let's Build the Future Together 💪</h2>
+  <p>Join a company that values people, growth, and innovation.</p>
+  <a href="/contact.html" class="btn-white">Contact HR</a>
+</section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container row">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="/assets/img/logo.png" alt="Logo" style="height:40px; width:40px; border-radius:6px;">
+        <div>
+          <div style="font-weight:700;">Shri Krishna Enterprises</div>
+          <div class="small">© 2025 — Azad Nagar, Hansari, Jhansi, Uttar Pradesh - 284135</div>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:10px; align-items:center;">
+        <a class="icon-btn" href="https://wa.me/919455323678" target="_blank">📱 WhatsApp</a>
+        <a class="icon-btn" href="mailto:shrikrishnaenterprises@skeservices.in">✉️ Email</a>
+      </div>
+    </div>
+    <div class="small" style="margin-top:8px;text-align:center;">
+      GSTIN: 09CKFPT7344R1Z2 &nbsp; | &nbsp; 
+      Udyam No: UDYAM-UP-39-0053213 &nbsp; | &nbsp; 
+      Labour Reg. No: UPCLA37000081
+    </div>
+    
+      
+  <div style="text-align:center; margin-top:12px; font-size:14px; color:rgba(0,0,0,0.7);">
+   🌐 Developed by <a href="mailto:rupesharma066@gmail.com" style="color:inherit; text-decoration:underline;">Rupesh Sharma</a>
+</div>
+
+  </footer>
+
+  <!-- ===== Scripts ===== -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    AOS.init({ duration: 700, once: true });
+
+    // ✅ Same navbar toggle as index.html
+    document.addEventListener('DOMContentLoaded', () => {
+      const navToggle = document.querySelector('.nav-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      if (navToggle && navLinks) {
+        navToggle.addEventListener('click', () => {
+          navLinks.classList.toggle('active');
+        });
+      }
+    });
+
+    // ✅ Career form submission AJAX
+    $(document).ready(function(){
+      function showMessage(type, text){
+        var box = $("#formMessage");
+        box.stop(true,true)
+           .removeClass("success error")
+           .addClass(type)
+           .html(text)
+           .slideDown(300)
+           .delay(5000)
+           .slideUp(400);
+      }
+
+      $("#careerForm").on("submit", function(e){
+        e.preventDefault();
+        var form = $(this);
+        var fd = new FormData(this);
+
+        showMessage("success", "⏳ Please wait... submitting your application.");
+
+        $.ajax({
+          type: "POST",
+          url: form.attr("action"),
+          data: fd,
+          contentType: false,
+          processData: false,
+          beforeSend: function() {
+            form.find("button[type=submit]").prop("disabled", true).text("Submitting...");
+          },
+          success: function(){
+            showMessage("success", "✅ Your application has been submitted successfully!");
+            form[0].reset();
+          },
+          error: function(){
+            showMessage("error", "❌ Something went wrong. Please try again.");
+          },
+          complete: function(){
+            form.find("button[type=submit]").prop("disabled", false).text("Submit Application");
+          }
+        });
+      });
+    });
+  </script>
+  
+  
+<!-- Floating WhatsApp Button (Mid Screen) -->
+<a href="https://wa.me/919455323678?text=Hi!%20I%20want%20to%20book%20a%20consultation." 
+   class="whatsapp-float" 
+   target="_blank" 
+   title="Chat on WhatsApp">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+   <span class="whatsapp-text">Book Your Consultation</span>
+</a>
+
+<style>
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  top: 50%;              /* 👈 mid of screen vertically */
+  right: 20px;           /* 👈 right side */
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  background-color: #25D366; /* WhatsApp green */
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 16px 10px 10px;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-50%) scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  background-color: #20bd60;
+}
+
+.whatsapp-icon {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 4px;
+  margin-right: 10px;
+}
+
+.whatsapp-text {
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* Mobile Responsive */
+@media (max-width:600px){
+  .whatsapp-float {
+    top: auto;
+    bottom: 80px;
+    right: 10px;
+    transform: none;
+    padding: 8px 14px 8px 8px;
+  }
+  .whatsapp-icon {
+    height: 32px;
+    width: 32px;
+  }
+  .whatsapp-text {
+    font-size: 14px;
+  }
+}
+</style>
+
+</body>
+</html>
